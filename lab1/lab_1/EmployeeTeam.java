@@ -9,7 +9,7 @@ public class EmployeeTeam {
         this.employee = employee;
     }
 
-    // one place that knows how to print an Employee, so nothing is duplicated
+   
     private void printDetails(Employee e) {
         System.out.println(e.getFirstName() + " " + e.getLastName()
                 + ", salary: " + e.getSalary());
@@ -31,7 +31,7 @@ public class EmployeeTeam {
 
     private void updateIfNameMatches(Employee e, String firstname, double newSalary) {
         if (e.getFirstName().equals(firstname)) {
-            e.setSalary(newSalary);   // setSalary already ignores values <= 0
+            e.setSalary(newSalary);  
         }
     }
 
