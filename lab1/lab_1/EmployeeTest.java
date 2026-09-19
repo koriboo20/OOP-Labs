@@ -2,7 +2,7 @@ package lab_1;
 
 public class EmployeeTest {
     public static void main(String[] args) {
-        // Part 1: one employee, read and modify every attribute
+        
         Employee e = new Employee("Ada", "Lovelace", 3000);
         System.out.println("Initial: " + e.getFirstName() + " " + e.getLastName()
                 + ", salary " + e.getSalary());
